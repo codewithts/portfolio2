@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* color: aqua; */
+}
+* h1{
+    color: aqua;
+}
+* p{
+    color: whitesmoke;
+}
+/* body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #081b29, #112e42 );
+} */
+.first{
+    /* height: 100vh; */
+   background-image: linear-gradient(0deg, #081c29, #12344a ); 
+   background-position: center;
+   background-size: cover;
+}
+.logo{
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-style:normal;
+    color:whitesmoke;
+}
+.navbar{
+    text-transform: capitalize;
+    justify-content: space-around;
+    text-align: right;
+    padding: 7px;
+    display: flex;
+    /* margin: 10px; */
+    box-shadow: 10px 10px 10px rgba(32, 189, 246, 0.795),
+             -10px -10px 10px rgba(32, 189, 246, 0.795);
+    border-radius: 21px;
+    /* background-color: rgba(32, 189, 246, 0.795); */
+}
+.navbar a{
+    font-size: 18px;
+    color: aqua;
+}
+
+/* .navbar ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fb0d0d;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.2s;
+}
+.navbar :hover::after{
+    width: 100%;
+} */
+.navbar a:hover{
+  color: rgb(221, 255, 0);
+ 
+}
+.navbar:hover{
+    /* box-shadow: 10px 10px 10px rgb(217, 255, 0),
+    -10px -10px 10px rgb(217, 255, 0); */
+    border: 0.2pc solid rgb(212, 255, 0) ;
+    border-style:dashed;
+    border-radius: 9px;
+    box-shadow: 0px 0px 0px ;
+}
+.me{
+    width: 250px;
+    height: 300px;
+    /* float: right; */
+    /* display: flex; */
+}
+.me:hover{
+    opacity:3% ;
+    transition: 2s;
+}
+.scnd{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* padding:15px ; */
+  /* margin: 10px; */
+}
+.scnd h1{
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+.scnd h2 {
+    text-align: center;
+}
+.scnd p{
+    text-align: center;
+    padding: 20px;
+}
+.secondpage{
+    padding: 18px;
+}
+.secondpage h2{
+     font-size: 28px;
+     color: aqua;
+}
+.secondpage p{
+    text-align: center;
+}
+.box  {
+    width: fit-content;
+    height: fit-content;
+    background-color: slategrey;
+    display: flex;
+    
+}
+.school {
+    float: left;
+}
+.college {
+    float: right;
+}
+#footer {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.614);
+}
+#footer h1{
+    /* font-size: 45px; */
+    font-family: inherit;
+    color: whitesmoke;
+
+}   
+
